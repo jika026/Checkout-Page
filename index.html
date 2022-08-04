@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>Checkout</h1>
+      <div class="right">
+        <section class="items">
+          <div class="container">
+            <img src="images/photo1.png" alt="A bag" />
+            <div class="text">
+              <p>Vintage Backbag</p>
+              <div class="prices">
+                <p>$54.99</p>
+                <p>$94.99</p>
+              </div>
+              <div class="item-number">
+                <p>+</p>
+                <p>1</p>
+                <p>-</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <img src="images/photo2.png" alt="A shoe" />
+            <div class="text">
+              <p>Levi Shoes</p>
+              <div class="prices">
+                <p>$74.99</p>
+                <p>$124.99</p>
+              </div>
+              <div class="item-number">
+                <p>+</p>
+                <p>1</p>
+                <p>-</p>
+              </div>
+            </div>
+          </div>
+          <div class="price-total">
+            <hr />
+            <div class="detailed-price">
+              <p>Shipping</p>
+              <p>$19</p>
+            </div>
+            <hr />
+            <div class="detailed-price">
+              <p>Total</p>
+              <p>$148.98</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="left">
+        <section class="information">
+          <div class="contact-information">
+            <h2>Contact Information</h2>
+            <div class="content">
+              <p>Email</p>
+              <div class="context">
+                <i class="fa-solid fa-envelope"></i>
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="Enter your email..."
+                />
+              </div>
+            </div>
+
+            <div class="content">
+              <p>Phone</p>
+              <div class="context">
+                <i class="fa-solid fa-phone"></i>
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="Enter your phone..."
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-information">
+            <h2>Shipping address</h2>
+            <div class="content">
+              <p>Full name</p>
+              <div class="context">
+                <i class="fa-solid fa-user"></i>
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="Rodney Cotton"
+                  id="user"
+                />
+              </div>
+            </div>
+            <div class="content">
+              <p>Address</p>
+              <div class="context">
+                <i class="fa-solid fa-house"></i>
+                <input type="text" class="input" placeholder="Your address.." />
+              </div>
+            </div>
+          </div>
+
+          <div class="content">
+            <p>City</p>
+
+            <div class="context">
+              <i class="fa-solid fa-city"></i>
+              <input type="text" class="input" placeholder="Your city.." />
+            </div>
+          </div>
+          <div class="ending">
+            <div class="country-code">
+              <div class="content">
+                <p>Country</p>
+              </div>
+              <div class="context">
+                <i class="fa-solid fa-earth-americas"></i>
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="Your country.."
+                  id="country"
+                />
+                <i class="fa-solid fa-angle-down" id="select"></i>
+              </div>
+            </div>
+            <div class="country-code">
+              <div class="content">
+                <p>Postal code</p>
+              </div>
+              <div class="context">
+                <i class="fa-solid fa-city"></i>
+
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="Your postal code.."
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="save-info">
+            <input type="checkbox" />
+            <p>Save this information for next time</p>
+          </div>
+          <div class="continue">
+            <a href="#"><p>Continue</p></a>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <p>
+          created by<a href="https://github.com/jika026">jika026</a
+          >-devChallenges.io
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

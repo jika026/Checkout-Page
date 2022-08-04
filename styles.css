@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  margin-block-start: 3rem;
+  max-width: 1024px;
+  position: relative;
+  margin: 3rem 2rem 1rem 2rem;
+}
+.container {
+  display: flex;
+  margin-top: 2rem;
+}
+img {
+  height: 124px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+h1 {
+  margin-block-end: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #4e5150;
+}
+.text {
+  margin-left: 2rem;
+}
+.items {
+  background: #f2f2f2;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 100%;
+}
+.prices {
+  display: flex;
+}
+.prices p:nth-child(1) {
+  margin-right: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f2994a;
+}
+.prices p:nth-child(2) {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration-line: line-through;
+  color: #4e5150;
+}
+.price-total {
+  margin-top: 5.5rem;
+}
+h2 {
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700px;
+}
+.detailed-price {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  margin-block: 0.5rem;
+}
+.text p {
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #4e5150;
+}
+hr {
+  border: 1px solid #bdbdbd;
+}
+
+.context {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+}
+input {
+  height: 41px;
+  width: 100%;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  padding-left: 2.5rem;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+}
+i {
+  position: relative;
+  bottom: 2.4rem;
+  left: 0.3rem;
+  color: #828282;
+  height: 1rem;
+  padding: 10px;
+}
+.left,
+.right {
+  margin-top: 2rem;
+}
+.container {
+  display: flex;
+}
+.content p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  color: #4f4f4f;
+  margin-bottom: 7px;
+}
+.ending {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.country-code {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.save-info {
+  display: flex;
+}
+.save-info input {
+  width: 16px;
+  height: 15px;
+  border: 1px solid #828282;
+}
+.save-info p {
+  margin-left: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  color: #4f4f4f;
+}
+.left {
+  display: flex;
+}
+.continue {
+  background: #f2994a;
+  border-radius: 12px;
+  width: 166px;
+  height: 54px;
+  text-align: center;
+  padding-top: 19px;
+  margin-top: 3rem;
+  margin-left: auto;
+}
+.continue a {
+  text-decoration: none;
+}
+.continue a p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+  color: #bdbdbd;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  margin: 10rem 0 0 0;
+  text-align: center;
+}
+footer a {
+  font-weight: 700;
+  color: #bdbdbd;
+  text-decoration: none;
+}
+#user {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#select {
+  position: absolute;
+  top: 0.3rem;
+  left: 80%;
+  width: 2rem;
+  height: 2rem;
+}
+.continue a p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.input {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 12px;
+  line-height: 15px;
+  color: #828282;
+}
+.item-number {
+  border: 1px solid #828282;
+  border-radius: 12px;
+  width: 122.8px;
+  height: 49.86px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.item-number p {
+  height: 19.39px;
+  width: 19.39px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 0;
+}
+@media (max-width: 720px) {
+  main {
+    margin-inline: 1rem;
+    min-width: 320px;
+  }
+}
+@media (min-width: 800px) {
+  .right {
+    float: right;
+    margin-left: 6rem;
+  }
+  main {
+    margin-inline: auto;
+    padding: 2rem;
+  }
+  input {
+    height: 56px;
+  }
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+  }
+  .content p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4f4f4f;
+  }
+  .save-info p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4f4f4f;
+  }
+  .text p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4e5150;
+  }
+  .prices p:nth-child(1) {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #f2994a;
+  }
+  .prices p:nth-child(2) {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: line-through;
+    color: #4e5150;
+  }
+  .input {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+  }
+  img {
+    height: 135px;
+  }
+  i {
+    position: relative;
+    bottom: 2.8rem;
+    right: 0.3rem;
+  }
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4e5150;
+  }
+  #select {
+    position: absolute;
+    top: 0.8rem;
+    right: 2rem;
+  }
+  .item-number p {
+    height: 21.2px;
+    width: 21.2px;
+    border-radius: 4px;
+  }
+  .item-number {
+    width: 134.25px;
+    height: 52px;
+  }
+  #user {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
